@@ -1,1 +1,2 @@
 # cassiebot
+basic stuff here
