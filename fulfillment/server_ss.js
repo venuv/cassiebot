@@ -10,6 +10,7 @@ https.createServer({
 
 app.get('/', function (req, res) {
 	res.header('Content-type', 'text/html');
+	console.log("received GET request")
 	return res.end('<h1>Hello, Secure World!</h1>');
     });
 
